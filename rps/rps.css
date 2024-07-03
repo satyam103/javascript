@@ -1,0 +1,144 @@
+body{
+    background-color: aquamarine;
+}
+
+.container1 {
+    /* margin: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+.container {
+    /* margin: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+    
+}
+.container1 .entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    /* height: 80vh; */
+}
+
+.main{
+    height: 80vh;
+    margin-top: 6%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    height: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    height: 90%;
+    width: 90%;
+}
+
+.card1{
+    height: 50vh;
+    width: 40vw;
+    background: #ffff;
+    display: flex;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.select {
+    background: #000;
+    height: 50px;
+    width: 50px;
+}
+
+.cardPlayer{
+    width: 50%;
+    background-color: rgb(240, 212, 221);
+    
+}
+
+.cardComputer{
+    width: 50%;
+    background-color: rgb(175, 150, 158);
+    
+}
+
+.imgArea{
+    height:65%;
+}
+
+.score-draw{
+    height: 50px;
+    width: 50px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.score {
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.score1 {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 12%;
+    display: flex;
+    color: #ffff;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 40, 56);
+}
+
+.success{
+    background-color: rgb(138, 243, 90);
+}
+
+.draw{
+    background-color: rgb(111, 112, 112);
+}
+.new{
+    text-align: center;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+.game{
+    height: 90vh;
+    background-color: #000;
+}
+
+.container{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background-color: red;
+    padding: 0px;
+    margin: 0px;
+}
+
+td{
+    margin: 0px;
+}
+
+.vl {
+    border-left: 2px solid green;
+    height: 50px;
+}
+.hidden{
+    display: none;
+}
+
+.main{
+    background-color: #daf3b1;
+    height: 80vh;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .card{ */
+    /* width: 50vw; */
+    
+    
+    /* height: 50vh; */
+/* } */
+.cmain{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+
+}
+.card1{
+    width: 50%;
+    background: #ffff;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+.card2{
+    /* height: 50vh; */
+    width: 50%;
+    background: #ffff;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    /* padding: 10px; */
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+.pl{
+    width: 150px;
+    height: 30px;
+    margin: 8px;
+    border: solid black 2px;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    font-weight: bolder;
+    background-color: aqua;
+}
+.winner {
+    background-color: green;
+}
+button{
+    height: 30px;
+    margin: 10px;
+    /* margin: 5px; */
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn{
+    border: solid black 2px;
+    height: 40px;
+    width: 60px;
+    font-weight: bolder;
+    /* color: #ffff; */
+    background-color: rgb(116, 189, 238);
+}
+.result{
+    color: #ffff;
+    font-weight: bolder;
+}

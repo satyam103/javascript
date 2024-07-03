@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main1 ">
+        <div class="main ">
+            <div class="card">
+                <div class="card cmain">
+                    <div class="card1">
+                        <span class="player player1">Player 1: </span>
+                        <input type="text" class="pl pl1">
+                    </div>
+                    <div class="card2">
+                        <span class="player player2">Player 2: </span>
+                        <input type="text" class="pl pl2">
+                    </div>
+                </div>
+                <div class="cmain"><button class="btn">Enter</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="game hidden">
+        <div class="container">
+            <button class="player--1 active" name="player--1">Player1 = 0</button>
+            <button class="player--2" name="player--2">Player2 = X</button>
+        </div>
+        <div class="container1">
+            <table>
+                <tr>
+                    <td><input type="" class="tictac tictac--1" name="0,0" readonly></td>
+                    <td><input type="" class="tictac tictac--2" name="0,1" readonly></td>
+                    <td><input type="" class="tictac tictac--3" name="0,2" readonly></td>
+                </tr>
+                <!--  -->
+                <tr>
+                    <td><input type="" class="tictac tictac--4" name="1,0" readonly></td>
+                    <td><input type="" class="tictac tictac--5" name="1,1" readonly></td>
+                    <td><input type="" class="tictac tictac--6" name="1,2" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="" class="tictac tictac--7" name="2,0" readonly></td>
+                    <td><input type="" class="tictac tictac--8" name="2,1" readonly></td>
+                    <td><input type="" class="tictac tictac--9" name="2,2" readonly></td>
+                </tr>
+            </table>
+        </div>
+        <div class="container1">
+            <div class="result"></div>
+            <button class="restart hidden">Restart</button>
+        </div>
+    </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+
+</html>

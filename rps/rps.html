@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+    <div class="container1 entry   ">
+        <div class="card">
+            <h4>Player Name</h4>
+            <input type="text" name="player">
+        </div>
+        <button class="submit">Enter</button>
+    </div>
+    <div class="main hidden">
+        <h2 class="title">Rock, Paper, Scissor Game</h2>
+        <h1 class="result new"></h1>
+        <div class="container">
+            <div class="card1">
+                <div class="cardPlayer">
+                    <h3 class="playerName">Player Name</h3>
+                    <hr>
+                    <div class="imgArea">
+                        <img  class="player-select" src="qm.jpeg" alt="" srcset="">
+                    </div>
+                    <hr>
+                    <div class="buttonArea">
+                        <button class="select" name="rock">✊</button>
+                        <button class="select" name="paper">🖐️</button>
+                        <button class="select" name="scissor">✌️</button>
+                    </div>
+                </div>
+                <div class="cardComputer">
+                    <h3 class="computer">Computer</h3>
+                    <hr>
+                    <div class="imgArea">
+                        <img class="computer-select" src="qm.jpeg" srcset="">
+                    </div>
+                    <hr>
+                    <!-- <div class="buttonArea">
+                    </div> -->
+                </div>
+            </div>
+            <span class=" score-draw">0</span>
+        </div>
+        <div class="container scoreArea">
+            <span class="score score-player">0</span>
+            <span class="score score-computer">0</span>
+        </div>
+        <div class="container restart hidden">
+
+            <button class="score1  ">Restart</button>
+        </div>
+    </div>
+
+    <script src="rps.js"></script>
+</body>
+
+</html>
